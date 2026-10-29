@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Abstract cover: a lime train of long and short light pulses enters a glass prism and leaves as a fan of rays">
+<title>Abstract cover: a lime train of long and short light pulses enters a glass prism and leaves as a fan of rays</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#191B17"/><stop offset="1" stop-color="#0F110E"/></linearGradient>
+<radialGradient id="vig" cx="50%" cy="46%" r="75%"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/></radialGradient>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .6 0"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="haze" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+<linearGradient id="prism" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4F4ED" stop-opacity=".16"/><stop offset=".6" stop-color="#F4F4ED" stop-opacity=".04"/><stop offset="1" stop-color="#F4F4ED" stop-opacity=".1"/></linearGradient>
+<linearGradient id="fan" gradientUnits="userSpaceOnUse" x1="947" y1="0" x2="1600" y2="0"><stop offset="0" stop-color="#F4F4ED" stop-opacity=".9"/><stop offset="1" stop-color="#F4F4ED" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<path d="M40 600 L634 540" stroke="#C8F169" stroke-opacity=".12" stroke-width="1"/>
+<path d="M40 600 L97.4 594.2 M106.9 593.2 L116.5 592.3 M126 591.3 L135.6 590.3 M145.2 589.4 L154.7 588.4 M164.3 587.4 L173.8 586.5 M183.4 585.5 L192.9 584.6 M202.5 583.6 L226.4 581.2 M236 580.2 L259.9 577.8 M269.4 576.8 L293.3 574.4 M302.9 573.4 L326.8 571 M336.3 570.1 L360.2 567.7 M369.8 566.7 L393.7 564.3 M403.3 563.3 L412.8 562.3 M422.4 561.4 L446.3 559 M455.8 558 L465.4 557 M474.9 556.1 L484.5 555.1 M494.1 554.1 L503.6 553.2 M513.2 552.2 L522.7 551.2 M532.3 550.3 L556.2 547.9 M565.8 546.9 L575.3 545.9 M584.9 545 L594.4 544" stroke="#C8F169" stroke-width="10" stroke-opacity=".35" filter="url(#glow)"/>
+<path d="M40 600 L97.4 594.2 M106.9 593.2 L116.5 592.3 M126 591.3 L135.6 590.3 M145.2 589.4 L154.7 588.4 M164.3 587.4 L173.8 586.5 M183.4 585.5 L192.9 584.6 M202.5 583.6 L226.4 581.2 M236 580.2 L259.9 577.8 M269.4 576.8 L293.3 574.4 M302.9 573.4 L326.8 571 M336.3 570.1 L360.2 567.7 M369.8 566.7 L393.7 564.3 M403.3 563.3 L412.8 562.3 M422.4 561.4 L446.3 559 M455.8 558 L465.4 557 M474.9 556.1 L484.5 555.1 M494.1 554.1 L503.6 553.2 M513.2 552.2 L522.7 551.2 M532.3 550.3 L556.2 547.9 M565.8 546.9 L575.3 545.9 M584.9 545 L594.4 544" stroke="#C8F169" stroke-width="3" stroke-linecap="round"/>
+<path d="M634 540 L947 500" stroke="#C8F169" stroke-opacity=".7" stroke-width="2"/>
+<polygon points="800,190 1080,780 520,780" fill="url(#prism)" stroke="#F4F4ED" stroke-opacity=".38" stroke-width="1.4"/>
+<polygon points="800,250 1036,750 564,750" fill="none" stroke="#F4F4ED" stroke-opacity=".08"/>
+<line x1="800" y1="190" x2="815" y2="780" stroke="#F4F4ED" stroke-opacity=".1"/>
+<line x1="947" y1="500" x2="1651.7" y2="215.3" stroke="url(#fan)" stroke-opacity="0.35" stroke-width="1"/>
+<line x1="947" y1="500" x2="1684.4" y2="316.1" stroke="url(#fan)" stroke-opacity="0.5" stroke-width="1"/>
+<line x1="947" y1="500" x2="1702.8" y2="420.6" stroke="#C8F169" stroke-opacity="1" stroke-width="2.2"/>
+<line x1="947" y1="500" x2="1706.9" y2="513.3" stroke="url(#fan)" stroke-opacity="0.45" stroke-width="1"/>
+<line x1="947" y1="500" x2="1699.6" y2="605.8" stroke="url(#fan)" stroke-opacity="0.28" stroke-width="1"/>
+<circle cx="947" cy="500" r="30" fill="#C8F169" opacity=".35" filter="url(#glow)"/>
+<circle cx="634" cy="540" r="22" fill="#C8F169" opacity=".35" filter="url(#glow)"/>
+<rect width="1600" height="1000" fill="url(#vig)"/>
+<rect width="1600" height="1000" filter="url(#grain)" opacity=".045"/>
+</svg>
